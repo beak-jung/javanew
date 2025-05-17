@@ -1,5 +1,7 @@
 package basic;
 
+import java.util.Scanner;
+
 public class Controlstmt {
     public static void main(String[] args) {
         //if 문
@@ -14,6 +16,14 @@ public class Controlstmt {
         }else{
         조건식이 거짓일때 실행되는 명령문
         }
+         */
+
+        /*
+         if (조건식, 논리식1) {
+         }
+         else if (조건식, 논리식2) {
+         } else if (조건식, 논리식3) {
+         }
          */
 
         Scanner sc = new Scanner(System.in);
