@@ -11,7 +11,7 @@ public class NumberGame {
         System.out.println(n);
 
 
-        int num = 1;
+        //int num = 1;
         Scanner sc = new Scanner(System.in);
         while (num != n) {
             System.out.print("숫자를 입력하세요 ===>");
