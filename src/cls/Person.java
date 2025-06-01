@@ -81,4 +81,9 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return String.format("이름 %s 나이 %d 성별 %s", name, age, gender);
+    }
 }

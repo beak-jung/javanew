@@ -23,8 +23,16 @@ public class MyPersonTest {
 
 
 
-        Person k2 = new Person("홍길동", 18);
+        Student k2 = new Student("홍길동", 18, "남자", "하바드");
         k2.introduce();
+
+        String str = new String("대한민국");
+        System.out.println(str);
+
+        System.out.println(k1); //person.toString()메소드를 재정의하여 인스턴스를 문자열로 반환한다
+        System.out.println(k2);
+
+
 
     }
 }
