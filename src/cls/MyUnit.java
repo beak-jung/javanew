@@ -55,4 +55,9 @@ public class MyUnit {
     public int getPower() {
         return power;
     }
+
+    //@Override
+    //public String toString() {
+       // return String.format();
+   // }
 }

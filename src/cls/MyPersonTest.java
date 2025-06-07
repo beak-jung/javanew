@@ -26,12 +26,23 @@ public class MyPersonTest {
         Student k2 = new Student("홍길동", 18, "남자", "하바드");
         k2.introduce();
 
-        String str = new String("대한민국");
-        System.out.println(str);
+        String str1 = new String("대한민국");
+        String str2 = new String("대한민국");
+        System.out.println(str1);
+        if (str1.equals(str2))
+            System.out.println("str1은 str2와 같다");
+        else
+            System.out.println("str1은 str2와 다르다");
 
         System.out.println(k1); //person.toString()메소드를 재정의하여 인스턴스를 문자열로 반환한다
         System.out.println(k2);
 
+        Student k3 = new Student("홍길동", 18, "남자", "하바드");
+        if (k2.equals(k3))
+            System.out.println("k2와 k3는 동일 인물 입니다");
+        else
+            System.out.println("k2와 k3는 다른 인물 입니다");
+        //변수값이 하나 밖에 없는 클래스를 만든다
 
 
     }

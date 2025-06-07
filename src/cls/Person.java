@@ -2,7 +2,7 @@ package cls;
 
 //클래스 로보트의 설계도
 // 클래스 구성 : 데이터 요소와 행위 요소(기능 요소) ==> 맴버
-//맴버 변수 : 필드, Attridute
+//맴버 변수 : 필드, Attridute(속성)
 //맴버 함수 : method
 
 //로봇 청소기 : 움직이기, 바퀴, 흡입기, 걸레, 닦기, 흡입
@@ -69,6 +69,10 @@ public class Person {
             gender = g;
         else
             System.out.println("성별은 남자 또는 여자로만 입력할 수 있습니다.");
+    }
+
+    public String getGender () {
+        return getGender();
     }
 
 

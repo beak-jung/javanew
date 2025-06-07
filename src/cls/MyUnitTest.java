@@ -8,16 +8,51 @@ public class MyUnitTest {
 
 
         //Object : 모든 클래스중에서 최상위 클래스
-        System.out.println("m1은 Marine의 인스턴스인가 :" + (m1 instanceof Marine) );
-        System.out.println("m1은 MyUnit의 인스턴스인가 :" + (m1 instanceof MyUnit) );
-        System.out.println("m1은 Object의 인스턴스인가 :" + (m1 instanceof Object) );
-        System.out.println("t1은 String의 인스턴스인가 :" + (t1 instanceof Marine) );
+//        System.out.println("m1은 Marine의 인스턴스인가 :" + (m1 instanceof Marine) );
+//        System.out.println("m1은 MyUnit의 인스턴스인가 :" + (m1 instanceof MyUnit) );
+//        System.out.println("m1은 Object의 인스턴스인가 :" + (m1 instanceof Object) );
+//        System.out.println("t1은 String의 인스턴스인가 :" + (t1 instanceof Marine) );
 
-        m1.steampack();
-        m1.attack(t1);
-        m1.info();
-        t1.info();
 
+        System.out.println(t1); //[tank] hp 300, power 35
+
+
+//        m1.steampack();
+//        m1.attack(t1);
+//        m1.info();
+//        t1.info();
+
+        MyStack st1 = new MyStack(); //5칸 짜리 스텍
+        MyStack st2 = new MyStack(10);
+
+        st1.add(100);
+        st1.add(200);
+        st1.add(300);
+        st1.add(400);
+        st1.add(500);
+        st1.add(600);
+        st1.add(700);
+
+        System.out.println(st1); // [100, 200, 300, 400, 500]
+
+//        int num = 0;
+//        num = st1.pop();
+//        System.out.println(num);
+//
+//        num = st1.pop();
+//        System.out.println(num);
+//
+//        num = st1.pop();
+//        System.out.println(num);
+//
+//        num = st1.pop();
+//        System.out.println(num);
+//
+//        num = st1.pop();
+//        System.out.println(num);
+//
+//        num = st1.pop();
+//        System.out.println(num);
 
     }
 }

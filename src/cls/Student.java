@@ -20,4 +20,21 @@ public class Student extends Person {
         super.introduce(); // 부모클래스에서 정의 된 introduce
         System.out.printf("학교는 %s에 다니고 있습니다\n", school);
     }
+
+
+    @Override
+    public boolean equals(Object obj) {
+        //매개변수 obj가 Stdent 클래스로부터 생성된 인스턴스인지 먼저 검사
+        if (!(obj instanceof Student))
+            return false;
+
+        Student target = (Student) obj;
+
+        return getName().equals(target.getName()) &&
+        getAge() == target.getAge() &&
+                getGender().equals(target.getGender()) &&
+                school.equals(target.school) &&
+                grade == target.grade;
+
+    }
 }
