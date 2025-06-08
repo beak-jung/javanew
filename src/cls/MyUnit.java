@@ -56,8 +56,8 @@ public class MyUnit {
         return power;
     }
 
-    //@Override
-    //public String toString() {
-       // return String.format();
-   // }
+
+    public String toString() {
+        return String.format("[%s] hp가 %d  power %d \n", name, hp, power);
+    }
 }

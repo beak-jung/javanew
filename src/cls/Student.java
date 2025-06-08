@@ -28,13 +28,18 @@ public class Student extends Person {
         if (!(obj instanceof Student))
             return false;
 
-        Student target = (Student) obj;
+        Student target = (Student) obj; //형변환 Object ===> Student
 
         return getName().equals(target.getName()) &&
-        getAge() == target.getAge() &&
+                getAge() == target.getAge() &&
                 getGender().equals(target.getGender()) &&
                 school.equals(target.school) &&
                 grade == target.grade;
 
     }
 }
+
+//MyInt 라는 이름의 클래스를 만들고
+//속성 로 int n 을 완전 바공개 맴버로 정의하세요
+//기본 생성자를 만들고 네이터를 n을 0으로 초기화 하세요
+//추가 생설자를 만들고 매개변수  n 을 받아서 석성 ㅜ을 매개변수 n으로 초기화하세려
