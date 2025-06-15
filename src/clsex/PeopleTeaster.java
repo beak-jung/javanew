@@ -8,6 +8,9 @@ public class PeopleTeaster {
 
     public static void main(String[] args) {
 
+//        Animal an1 = new Animal(); //추상 클래스를 이용하여 민터페이스를
+
+
 //        People p1 = new People();
 
         Cat c1 = new Cat("뚱뚱이");
